@@ -31,7 +31,7 @@ a:hover {
   margin: 40px auto;
   border-radius: 4px;
   -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
-          box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+          box-shadow: 0 4px 10px 4px rgba(0, 161, 255, 0.3);
 }
 
 .tab-group {

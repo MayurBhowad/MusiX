@@ -1735,10 +1735,7 @@ body {
   .hidden-print {
     display: none !important; } }
 
-.background {
-    background-color:black;
-    color:black;
-}
+
 
 /* line 1, sass/layout/_header.scss */
 .site-header {
