@@ -36,7 +36,7 @@
                             xxxxxxxxxxxxxxxx                       
                         </p>
 
-                        <a href="#" class="button cut-corner">Register</a>
+                        <a href="registration.aspx" class="button cut-corner">Register</a>
                     </div>
                 </li>
                 <li class="lazy-bg" data-background="band/dummy/slide-2.jpg">
@@ -49,7 +49,7 @@
                             xxxxxxxxxxxxxxxx
                         </p>
 
-                        <a href="#" class="button cut-corner">Register</a>
+                        <a href="registration.aspx" class="button cut-corner">Register</a>
                     </div>
                 </li>
                 <li class="lazy-bg" data-background="band/dummy/slide-3.jpg">
@@ -62,7 +62,7 @@
                             xxxxxxxxxxxxxxxx
                         </p>
 
-                        <a href="#" class="button cut-corner">Register</a>
+                        <a href="registration.aspx" class="button cut-corner">Register</a>
                     </div>
                 </li>
             </ul>

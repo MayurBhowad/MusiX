@@ -1,0 +1,39 @@
+﻿body {
+}
+
+.abc{
+    text-align:center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #FFFFFF;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+
+
+
+.button {
+    align:center;
+    background-color: #C54D2E; /* orange */
+    border: none;
+    color: white;
+    padding: 15px,50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items:center;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
