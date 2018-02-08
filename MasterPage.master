@@ -16,6 +16,9 @@
     <!-- Loading main css file -->
     <link rel="stylesheet" href="band/style.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!--[if lt IE 9]>
 		<script src="band/js/ie-support/html5.js"></script>
 		<script src="band/js/ie-support/respond.js"></script>
@@ -26,87 +29,89 @@
     </asp:ContentPlaceHolder>
 
 </head>
-<body >
+<body>
     <form id="form1" runat="server">
-        <div class="background">
-            <div id="site-content">
-                <header class="site-header">
-                    <div class="container">
-                        <a href="index.html" id="branding">
-                            <img src="band/dummy/logo.png" alt="Site Title" />
-                            <small class="site-description">Slogan goes here</small>
-                        </a>
-                        <!-- #branding -->
+        <div class="">
+            <header class="site-header">
+                <div class="container">
 
-                        <nav class="main-navigation">
-                            <button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
-                            <ul class="menu">
-                                <li class="menu-item"><a href="Home.aspx">Home</a></li>
-                                <li class="menu-item"><a href="about.html">About</a></li>
-                                <li class="menu-item"><a href="gallery.html">Gallery</a></li>
-                                <li class="menu-item"><a href="download.html">Download</a></li>
-                                <li class="menu-item"><a href="blog.html">Blog</a></li>
-                                <li class="menu-item"><a href="contact.aspx">Contact</a></li>
-                                
-                                <li class="menu-item"><a href="registration.aspx">Registration</a></li>
-                                <li class="menu-item"><a href="LogIn.aspx">Log In</a></li>
+                    <a href="index.html" id="branding">
+                        <img src="band/dummy/logo.png" alt="Site Title" />
+                        <small class="site-description">Slogan goes here</small>
+                    </a>
+                    <!-- #branding -->
+                    <nav class="main-navigation">
+                        <button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="Home.aspx">Home</a></li>
+                            <li class="menu-item"><a href="about.html">About</a></li>
+                            <li class="menu-item"><a href="gallery.html">Gallery</a></li>
+                            <li class="menu-item"><a href="download.html">Download</a></li>
+                            <li class="menu-item"><a href="FeedBack.aspx">Contact us</a></li>
 
-                                <li class="menu-item"><a href="Playlist.aspx">PlayList</a></li>
-                                <li class="menu-item"><a href="LogOut.aspx">Log Out</a></li>
-                            </ul>
 
-                            <!-- .menu -->
-                        </nav>
-                        <!-- .main-navigation -->
-                        <div class="mobile-menu"></div>
-                    </div>
-                </header>
-                <!-- .site-header -->
+                            <li class="menu-item"><a href="registration.aspx">Registration</a></li>
+                            <li class="menu-item"><a href="LogIn.aspx">Log In</a></li>
+
+                            <li class="menu-item"><a href="Playlist.aspx">PlayList</a></li>
+                            <li class="menu-item"><a href="LogOut.aspx">Log Out</a></li>
+                        </ul>
+
+                        <!-- .menu -->
+                    </nav>
+                    <!-- .main-navigation -->
+                    <div class="mobile-menu"></div>
+                </div>
+            </header>
 
 
 
 
 
 
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
 
-                <footer class="site-footer">
-                    <div class="container">
-                        <img src="band/dummy/logo-footer.png" alt="Site Name">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
 
-                        <address>
-                            <p>
-                                495 Brainard St. Detroit, MI 48201
+
+
+
+            <footer class="site-footer">
+                <div class="container">
+                    <img src="band/dummy/logo-footer.png" alt="Site Name">
+
+                    <address>
+                        <p>
+                            495 Brainard St. Detroit, MI 48201
                                 <br>
-                                <a href="tel:354543543">(563) 429 234 890</a>
-                                <br>
-                                <a href="mailto:info@bandname.com">info@bandname.com</a>
-                            </p>
-                        </address>
+                            <a href="tel:354543543">(563) 429 234 890</a>
+                            <br>
+                            <a href="mailto:info@bandname.com">info@bandname.com</a>
+                        </p>
+                    </address>
 
 
 
-                        <div class="social-links">
-                            <a href="#"><i class="fa fa-facebook-square"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                        <!-- .social-links -->
-
-                        <p class="copy">Copyright 2017 MusiX. Designed by MusiX Team. All right reserved</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
                     </div>
-                </footer>
-                <!-- .site-footer -->
+                    <!-- .social-links -->
 
-            </div>
-            <!-- #site-content -->
+                    <p class="copy">Copyright 2017 MusiX. Designed by MusiX Team. All right reserved</p>
+                </div>
+            </footer>
+            <!-- .site-footer -->
 
-            <script src="band/js/jquery-1.11.1.min.js"></script>
-            <script src="band/js/plugins.js"></script>
-            <script src="band/js/app.js"></script>
         </div>
+        <!-- #site-content -->
+
+        <script src="band/js/jquery-1.11.1.min.js"></script>
+        <script src="band/js/plugins.js"></script>
+        <script src="band/js/app.js"></script>
+
     </form>
 </body>
 </html>

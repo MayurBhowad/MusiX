@@ -1740,7 +1740,11 @@ body {
 /* line 1, sass/layout/_header.scss */
 .site-header {
   *zoom: 1;
-  z-index: 99; }
+  z-index: 99;
+  background: #191919;
+}
+
+
   /* line 4, sass/libs/_mixins.scss */
   .site-header:after {
     content: " ";
