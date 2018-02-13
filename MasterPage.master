@@ -50,8 +50,8 @@
                             <li class="menu-item"><a href="FeedBack.aspx">Contact us</a></li>
 
 
-                            <li class="menu-item"><a href="registration.aspx">Registration</a></li>
-                            <li class="menu-item"><a href="LogIn.aspx">Log In</a></li>
+                            <li class="menu-item"><a href="SignUp.aspx">Registration</a></li>
+                            <li class="menu-item"><a href="SignIn.aspx">Log In</a></li>
 
                             <li class="menu-item"><a href="Playlist.aspx">PlayList</a></li>
                             <li class="menu-item"><a href="LogOut.aspx">Log Out</a></li>

@@ -1785,8 +1785,11 @@ body {
 
 /* line 28, sass/layout/_header.scss */
 .main-navigation {
-  float: right; }
-  /* line 30, sass/layout/_header.scss */
+  float: right; 
+  
+    
+}
+  /* line 30, sass/layout/_header.scss */   
   .main-navigation .toggle-menu {
     background: none;
     color: #848484;
