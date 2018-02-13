@@ -30,7 +30,7 @@
 
                 <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                     <span class="label-input100">Email:</span>
-                    <asp:TextBox ID="Email" runat="server" CssClass="input100" type="text" placeholder="Enter Email address" ></asp:TextBox>
+                    <asp:TextBox ID="email" runat="server" CssClass="input100" type="text" placeholder="Enter Email address" ></asp:TextBox>
                     
                     <span class="focus-input100"></span>
                 </div>
@@ -52,7 +52,8 @@
                 <div class="container-contact100-form-btn">
                    
                     <asp:Button ID="ButtonSub" runat="server" CssClass="contact100-form-btn" Text="Submot" OnClick="ButtonSub_Click" />
-                    
+                    <br />
+                    <asp:Label ID="send" runat="server" ></asp:Label>
                 </div>
             </div>
         </div>
