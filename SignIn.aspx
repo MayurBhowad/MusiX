@@ -22,22 +22,20 @@
                 
                 <div class="wrap-input100 validate-input" data-validate="Email is required">
                     <span class="label-input100">Email:</span>
-                    <input class="input100" type="text" name="Email" placeholder="Enter Email" />
+                    <asp:TextBox ID="email" runat="server" CssClass="input100" type="text" placeholder="Enter Email"></asp:TextBox>
+                    
                     <span class="focus-input100"></span>
                 </div>
                 <div class="wrap-input100 validate-input" data-validate="Password is required">
                     <span class="label-input100">Password:</span>
-                    <input class="input100" type="password" name="Password" placeholder="Enter Password" />
+                    <asp:TextBox ID="password" runat="server" CssClass="input100" type="password" placeholder="Enter Password"></asp:TextBox>
+                    
                     <span class="focus-input100"></span>
                 </div>
                 
                 
                 <div class="container-contact100-form-btn">
-                    <button class="contact100-form-btn">
-                        <span>LogIn
-							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                        </span>
-                    </button>
+                    <asp:Button ID="ButtonSub" runat="server" CssClass="contact100-form-btn" Text="Submit"  />
                 </div>
             </div>
         </div>

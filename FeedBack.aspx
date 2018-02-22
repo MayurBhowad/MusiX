@@ -2,15 +2,21 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <title>FeedBack | MusiX</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
 
 
     <link href="ContactFrom_v15/css/main.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            margin-top: 0px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    
     <div class="container-contact100">
         <div class="wrap-contact100">
             <div class="contact100-form-title" style="background-image: url(ContactFrom_v15/images/bg-01.jpg);">
@@ -51,9 +57,12 @@
 
                 <div class="container-contact100-form-btn">
                    
-                    <asp:Button ID="ButtonSub" runat="server" CssClass="contact100-form-btn" Text="Submot" OnClick="ButtonSub_Click" />
+                    <asp:Button ID="ButtonSub" runat="server" CssClass="contact100-form-btn" Text="Submit" OnClick="ButtonSub_Click" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="send" runat="server" CssClass="auto-style1" Height="36px" Width="125px" ></asp:Label>
                     <br />
-                    <asp:Label ID="send" runat="server" ></asp:Label>
+                    <br />
+                    
                 </div>
             </div>
         </div>

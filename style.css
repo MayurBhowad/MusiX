@@ -36,4 +36,30 @@ th, td {
 .button2 {border-radius: 4px;}
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
-.button5 {border-radius: 50%;}
+.button5 {border-radius: 50%;
+
+}
+
+ .style4
+        {
+            width: 212px;
+        }
+        .style7
+        {
+            width: 212px;
+            height: 31px;
+        }
+        .style9
+        {
+            height: 26px;
+        }
+        .style11
+        {
+            width: 259px;
+        }
+        .style12
+        {
+            width: 259px;
+            height: 31px;
+        }
+

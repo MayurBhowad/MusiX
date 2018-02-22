@@ -26,6 +26,7 @@ public partial class _Default : System.Web.UI.Page
         cmd.Parameters.AddWithValue("@phone", phone.Text);
         cmd.Parameters.AddWithValue("@message", message.Text);
         cmd.ExecuteNonQuery();
-        send.Text = "Message Send";
+        send.Text = "Message Send!";
+        send.Text = "Thank you!";
     }
 }
