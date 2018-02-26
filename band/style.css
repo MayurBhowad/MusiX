@@ -1785,8 +1785,11 @@ body {
 
 /* line 28, sass/layout/_header.scss */
 .main-navigation {
-  float: right; }
-  /* line 30, sass/layout/_header.scss */
+  float: right; 
+  
+    
+}
+  /* line 30, sass/layout/_header.scss */   
   .main-navigation .toggle-menu {
     background: none;
     color: #848484;
@@ -2720,4 +2723,27 @@ textbox
             border-top-right-radius: 20px;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
+        }
+
+ .style4
+        {
+            width: 212px;
+        }
+        .style7
+        {
+            width: 212px;
+            height: 31px;
+        }
+        .style9
+        {
+            height: 26px;
+        }
+        .style11
+        {
+            width: 259px;
+        }
+        .style12
+        {
+            width: 259px;
+            height: 31px;
         }

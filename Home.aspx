@@ -30,73 +30,46 @@
                     <div class="container">
                         <h2 class="slide-title">MusiX</h2>
                         <h3 class="slide-subtitle">The Playlist!</h3>
-                        <p class="slide-desc">
-                            xxxxxxxxxxxxxxxx
-                                        <br>
-                            xxxxxxxxxxxxxxxx                       
-                        </p>
+                        
 
-                        <a href="registration.aspx" class="button cut-corner">Register</a>
+                        <a href="Registration.aspx" class="button cut-corner">Register</a>
+                        <p>and</p>
+                         <a href="SignIn.aspx" class="button cut-corner">Log IN</a>
                     </div>
                 </li>
                 <li class="lazy-bg" data-background="band/dummy/slide-2.jpg">
                     <div class="container">
                         <h2 class="slide-title">MusiX</h2>
                         <h3 class="slide-subtitle">The Playlist!</h3>
-                        <p class="slide-desc">
-                            xxxxxxxxxxxxxxxx
-                                        <br>
-                            xxxxxxxxxxxxxxxx
-                        </p>
+                        
 
-                        <a href="registration.aspx" class="button cut-corner">Register</a>
+                        <a href="Registration.aspx" class="button cut-corner">Register</a>
+                        <p>and</p>
+                         <a href="SignIn.aspx" class="button cut-corner">Log IN</a>
                     </div>
                 </li>
                 <li class="lazy-bg" data-background="band/dummy/slide-3.jpg">
                     <div class="container">
                         <h2 class="slide-title">MusiX</h2>
                         <h3 class="slide-subtitle">The Playlist!</h3>
-                        <p class="slide-desc">
-                            xxxxxxxxxxxxxxxx
-                                        <br>
-                            xxxxxxxxxxxxxxxx
-                        </p>
+                        
 
-                        <a href="registration.aspx" class="button cut-corner">Register</a>
+                        <a href="Registration.aspx" class="button cut-corner">Register</a>
+                        <p>and</p>
+                         <a href="SignIn.aspx" class="button cut-corner">Log IN</a>
                     </div>
                 </li>
             </ul>
         </div>
     </div>
     <main class="main-content">
-        <div class="fullwidth-block testimonial-section">
-            <div class="container">
-                <div class="quote-slider">
-                    <ul class="slides">
-                        <li>
-                            <blockquote>
-                                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
-                                <cite>John Smith</cite>
-                                <span>Corporation CEO, books author</span>
-                            </blockquote>
-                        </li>
-                        <li>
-                            <blockquote>
-                                <p>"Iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
-                                <cite>John Smith</cite>
-                                <span>Corporation CEO, books author</span>
-                            </blockquote>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        
         <!-- .testimonial-section -->
 
         <div class="fullwidth-block upcoming-event-section" data-bg-color="#191919">
             <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title">Upcoming events</h2>
+                    <h2 class="section-title">Upcoming Album's</h2>
 
                     <div class="event-nav">
                         <a class="prev" id="event-prev" href="#"><i class="fa fa-caret-left"></i></a>

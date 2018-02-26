@@ -49,12 +49,20 @@
                             <li class="menu-item"><a href="download.html">Download</a></li>
                             <li class="menu-item"><a href="FeedBack.aspx">Contact us</a></li>
 
+                            <%if (Session["email"] == null)
+                                {
+                                    %>
 
-                            <li class="menu-item"><a href="registration.aspx">Registration</a></li>
-                            <li class="menu-item"><a href="LogIn.aspx">Log In</a></li>
+                            <li class="menu-item"><a href="Registration.aspx">Registration</a></li>
+                            <li class="menu-item"><a href="SignIn.aspx">Log In</a></li>
+                            <% }
+                                else { %>
+                  <B style="color:Orange"> Welcome <%=Session["username"] %></B>
+
 
                             <li class="menu-item"><a href="Playlist.aspx">PlayList</a></li>
                             <li class="menu-item"><a href="LogOut.aspx">Log Out</a></li>
+                            <%} %>
                         </ul>
 
                         <!-- .menu -->
@@ -100,7 +108,7 @@
                     </div>
                     <!-- .social-links -->
 
-                    <p class="copy">Copyright 2017 MusiX. Designed by MusiX Team. All right reserved</p>
+                    <p class="copy">Copyright 2017 MusiX. Designed by Mayur_Bhowad. All right reserved</p>
                 </div>
             </footer>
             <!-- .site-footer -->

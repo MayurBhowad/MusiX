@@ -1,18 +1,22 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="FeedBack.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Feedback.aspx.cs" Inherits="_Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <title>Contact V15</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <title>FeedBack | MusiX</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+
 
 
     <link href="ContactFrom_v15/css/main.css" rel="stylesheet" />
-    <link href="ContactFrom_v15/css/util.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            margin-top: 0px;
+        }
+    </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    
     <div class="container-contact100">
         <div class="wrap-contact100">
             <div class="contact100-form-title" style="background-image: url(ContactFrom_v15/images/bg-01.jpg);">
@@ -25,33 +29,40 @@
             <div class="contact100-form validate-form">
                 <div class="wrap-input100 validate-input" data-validate="Name is required">
                     <span class="label-input100">Full Name:</span>
-                    <input class="input100" type="text" name="name" placeholder="Enter full name" />
+                    <asp:TextBox ID="name" runat="server" CssClass="input100" type="text" placeholder="Enter full name" ></asp:TextBox>
+                    
                     <span class="focus-input100"></span>
                 </div>
+
                 <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                     <span class="label-input100">Email:</span>
-                    <input class="input100" type="text" name="email" placeholder="Enter email addess" />
+                    <asp:TextBox ID="email" runat="server" CssClass="input100" type="text" placeholder="Enter Email address" ></asp:TextBox>
+                    
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate="Phone is required">
                     <span class="label-input100">Phone:</span>
-                    <input class="input100" type="text" name="phone" placeholder="Enter phone number" />
+                    <asp:TextBox ID="phone" runat="server" CssClass="input100" type="text" placeholder="Enter Phone number" ></asp:TextBox>
+                    
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate="Message is required">
                     <span class="label-input100">Message:</span>
-                    <textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
-                    <span class="focus-input100"></span>
+                   
+                    <asp:TextBox ID="message" runat="server" CssClass="input100" placeholder="Your Comment..." TextMode="multiline" Columns="50" Rows="5" runat="server"  />
+                    <span class="focus-input100"></span><asp:TextBox />
                 </div>
 
                 <div class="container-contact100-form-btn">
-                    <button class="contact100-form-btn">
-                        <span>Submit
-							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                        </span>
-                    </button>
+                   
+                    <asp:Button ID="ButtonSub" runat="server" CssClass="contact100-form-btn" Text="Submit" OnClick="ButtonSub_Click" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="send" runat="server" CssClass="auto-style1" Height="36px" Width="125px" ></asp:Label>
+                    <br />
+                    <br />
+                    
                 </div>
             </div>
         </div>
