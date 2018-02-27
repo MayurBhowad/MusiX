@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+  <ul>
+<li><a href="ViewRegisteredusers.aspx" class="current"><span></span>View/delete Registered 
+                                                  Users</a></li>
+                <li><a href="viewFeedback.aspx"><span></span>View /delete Feedback</a></li>
+               <li><a href="viewproduct.aspx"><span></span>View/ delete Product</a></li>              
+                <li><a href="addcategory.aspx"><span></span>Add Category</a></li>
+                <li><a href="addnewproduct.aspx"><span></span>Add Product</a></li>
+                <li><a href="addPhoto.aspx"><span></span>Add Photo</a></li>
+                <li><a href="AdminEnquiry.aspx"><span></span>Mail to Enquiry</a></li>
+                  
+                <li><a href="ViewOrder.aspx"><span></span>View Orders</a></li>
+                                  
+
+                <li><a href="../logout.aspx"><span></span>Logout</a></li>
+    
+ </ul>   
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

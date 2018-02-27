@@ -29,7 +29,7 @@
                 <li class="lazy-bg" data-background="band/dummy/slide-1.jpg">
                     <div class="container">
                         <h2 class="slide-title">MusiX</h2>
-                        <h3 class="slide-subtitle">The Playlist!</h3>
+                        <h3 class="slide-subtitle">The MusiC!</h3>
                         
 
                         <a href="Registration.aspx" class="button cut-corner">Register</a>
@@ -40,7 +40,7 @@
                 <li class="lazy-bg" data-background="band/dummy/slide-2.jpg">
                     <div class="container">
                         <h2 class="slide-title">MusiX</h2>
-                        <h3 class="slide-subtitle">The Playlist!</h3>
+                        <h3 class="slide-subtitle">The MusiC!</h3>
                         
 
                         <a href="Registration.aspx" class="button cut-corner">Register</a>
@@ -51,7 +51,7 @@
                 <li class="lazy-bg" data-background="band/dummy/slide-3.jpg">
                     <div class="container">
                         <h2 class="slide-title">MusiX</h2>
-                        <h3 class="slide-subtitle">The Playlist!</h3>
+                        <h3 class="slide-subtitle">The MusiC!</h3>
                         
 
                         <a href="Registration.aspx" class="button cut-corner">Register</a>
@@ -80,14 +80,20 @@
                 </header>
                 <!-- .section-header -->
                 <div class="event-carousel">
-
-                    <div class="event">
+                    
+                    <div class="event" style="background-image: url(ContactFrom_v15/images/bg-02.jpg)">
                         <div class="entry-date">
                             <div class="date">23</div>
                             <span class="month">Jun</span>
                         </div>
                         <h2 class="entry-title"><a href="#">Sed et persipiatis unde omnis iste natus</a></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
+                        <p>
+                            <br/>
+                            <br/>
+                             <br/>
+                             <br/>
+                               <br/>
+                        </p>
                     </div>
                     <!-- .event -->
 

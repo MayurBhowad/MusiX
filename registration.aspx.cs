@@ -31,6 +31,6 @@ public partial class _Default : System.Web.UI.Page
         cmd.ExecuteNonQuery();
         send.Text = "Message Send!";
         send.Text = "Thank you!";
-
+        send.ForeColor = System.Drawing.Color.ForestGreen;
     }
 }

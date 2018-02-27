@@ -35,7 +35,7 @@
             <header class="site-header">
                 <div class="container">
 
-                    <a href="index.html" id="branding">
+                    <a href="Home.aspx" id="branding">
                         <img src="band/dummy/logo.png" alt="Site Title" />
                         <small class="site-description">Slogan goes here</small>
                     </a>
@@ -44,7 +44,7 @@
                         <button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
                         <ul class="menu">
                             <li class="menu-item"><a href="Home.aspx">Home</a></li>
-                            <li class="menu-item"><a href="about.html">About</a></li>
+                            <li class="menu-item"><a href="About Us.aspx">About US</a></li>
                             <li class="menu-item"><a href="gallery.html">Gallery</a></li>
                             <li class="menu-item"><a href="download.html">Download</a></li>
                             <li class="menu-item"><a href="FeedBack.aspx">Contact us</a></li>
